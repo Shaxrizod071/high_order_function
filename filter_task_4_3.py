@@ -1,4 +1,5 @@
-def filter_task_4_3(numbers):
+def filter_task_4_3(n):
+
     """
     Keep numbers greater than 10.
     Args:
@@ -6,4 +7,8 @@ def filter_task_4_3(numbers):
     Returns:
         list of numbers greater than 10
     """
-    return
+    n=[5,11,20,7,10]
+    a=filter(lambda x: x>=10,n)
+    return (list(a))
+print(filter_task_4_3(10))
+
