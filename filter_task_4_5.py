@@ -6,4 +6,4 @@ def filter_task_4_5(students):
     Returns:
         list of students who passed
     """
-    return
+    
