@@ -1,4 +1,4 @@
-def map_task_3_1(numbers):
+def map_task_3_1(n):
     """
     Add 10 to each number.
     Args:
@@ -6,4 +6,6 @@ def map_task_3_1(numbers):
     Returns:
         list with 10 added to each number
     """
-    return
+    x=map(lambda x: x+10,n)
+    return list(x)
+print(map_task_3_1([1,2,3]))
