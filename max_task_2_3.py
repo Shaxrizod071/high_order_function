@@ -1,4 +1,4 @@
-def max_task_2_3(names):
+def max_task_1_3(n):
     """
     Find the name with the highest number of letters.
     Args:
@@ -6,4 +6,5 @@ def max_task_2_3(names):
     Returns:
         name with most letters
     """
-    return
+    return max(n,key=lambda x: len(x))
+print(max_task_1_3(["Ann", "Robert", "Charlotte", "Mike"]))
