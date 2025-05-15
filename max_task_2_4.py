@@ -1,4 +1,4 @@
-def max_task_2_4(words):
+def max_task_2_4(w):
     """
     Find the word with the most vowels.
     Args:
@@ -6,4 +6,9 @@ def max_task_2_4(words):
     Returns:
         word with most vowels
     """
-    return
+    if w in 'aieuo':
+         return True
+    else:
+        return False
+print(max_task_2_4(["tree", "education", "sky", "road"]))
+
